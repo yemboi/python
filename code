@@ -1,0 +1,45 @@
+              
+class Animal:
+    def __init__(self, name, sound):
+        self.name = name 
+        self._sound = sound
+
+def makeSound(self):
+    print(f"{self._name} makes {self._sound}")
+
+class Seal(Animal):
+    def __init__(self):
+        super().__init__("Seal", "Screech")
+    
+goofy = Dog()
+goofy.makeSound()
+daffy = Duck()
+daffy.makeSound
+salty = Seal()
+salty.makeSound
+
+
+
+# polymorphism
+animals = []
+
+animals.append(goofy)
+animals.append(daffy)
+animals.append(salty)
+
+for animal in animals:
+    animal.makeSound()
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+   
